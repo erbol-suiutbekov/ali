@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  padding: 20px 0;
+  max-width: 760px;
+  height: 300px;
+  margin: 0 auto;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 18px;
+  color: purple;
+  font-weight: 600;
+}
+.hero a {
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  margin-top: 30px;
+  border-radius: 10px;
+}
